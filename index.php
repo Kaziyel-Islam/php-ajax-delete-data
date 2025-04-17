@@ -41,6 +41,8 @@
 
     <script type="text/javascript">
 
+      // load data
+
         $(document).ready(function(){
 
             function loadtable(){
@@ -61,7 +63,8 @@
 
             }
             loadtable();
-           
+
+          // Insert Data
 
             $("#save-btn").on("click",function(e){
                 e.preventDefault();
@@ -101,6 +104,8 @@
 
                 
             });
+
+          // Delete Data
 
             $(document).on("click",".delete-btn", function(){
 
